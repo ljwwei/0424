@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>電表介紹</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .box {
+            width: 300px;
+            height: 75px;
+            background-color: aqua;
+            margin: 2px;
+            text-align: center;
+            font-size: 1.5em;
+            line-height: 75px;
+        }
+
+            .box img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                display: block;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="box">機械電表</div>
+            <div class="box">電子電表</div>
+            <div class="box">智慧電表</div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <img src="https://www.peyshang.com/upload/images/2019052903172429676.png" alt="機械電表">
+            </div>
+            <div class="box">
+                <img src="https://www.peyshang.com/upload/201905290243338qz0h1.jpg" alt="電子電表">
+            </div>
+            <div class="box">
+                <img src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2024/10/29/realtime/30806394.png&x=0&y=0&sw=0&sh=0&sl=W&fw=1050&exp=3600" alt="智慧電表">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
